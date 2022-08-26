@@ -36,7 +36,7 @@ public class MessageHelp extends MessageListener implements EventListener<Messag
     
     public EmbedCreateSpec createResponse() {
     	EmbedCreateSpec embed = EmbedCreateSpec.builder()
-    			.color(Color.BLUE)
+    			.color(Color.GREEN)
     			.title("Помащ Босса")
     			.description("**Босс, какое число?**\r\n"
     					+ "Показывает текущую дату в имперском формате\r\n"
