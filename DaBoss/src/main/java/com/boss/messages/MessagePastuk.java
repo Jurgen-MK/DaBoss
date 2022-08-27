@@ -18,7 +18,7 @@ import discord4j.rest.util.Color;
 import reactor.core.publisher.Mono;
 
 @Service
-public class MessageWaaagh extends MessageListener implements EventListener<MessageCreateEvent> {
+public class MessagePastuk extends MessageListener implements EventListener<MessageCreateEvent> {
 
 	@Override
 	public Class<MessageCreateEvent> getEventType() {
@@ -34,18 +34,24 @@ public class MessageWaaagh extends MessageListener implements EventListener<Mess
 	public Mono<Void> processCommand(Message eventMessage) {
 		return Mono.just(eventMessage).filter(message -> message.getAuthor().map(user -> !user.isBot()).orElse(false))
 				.filter(message -> message.getContent()
-						.matches(Pattern.compile("[W|w]+[A|a+]+[G|g]+[H|h]", Pattern.UNICODE_CASE).toString()))
-				.flatMap(Message::getChannel).flatMap(channel -> channel.createMessage(createResponse())).then();
+						.matches(Pattern.compile("[Босс, пастукай].+", Pattern.UNICODE_CASE).toString()))
+				.filter(message -> !message.getUserMentions().isEmpty()).flatMap(Message::getChannel)
+				.flatMap(channel -> channel.createMessage(createResponse(eventMessage))).then();
 	}
 
-	public MessageCreateSpec createResponse() {
-		FileInputStream fis = null;
-		try {
-			fis = new FileInputStream(ResourceUtils.getFile("classpath:static/images/orkingintensifies.gif"));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+	public MessageCreateSpec createResponse(Message message) {
+		if (message.getUserMentions().size() > 1) {
+			return MessageCreateSpec.builder().content("Давай по одному").build();
+		} else {
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(ResourceUtils.getFile("classpath:static/images/pastuk1.gif"));
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
+			return MessageCreateSpec.builder().content("Палучай грязный сквигалюб " + message.getUserMentions().get(0).getMention())
+					.addFile("pastuk1.gif", fis).build();
 		}
-		return MessageCreateSpec.builder().content("WAAАААААААААААAGH!!").addFile("orkingintensifies.gif", fis).build();
 	}
 
 }
