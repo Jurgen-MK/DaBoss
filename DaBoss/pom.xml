@@ -45,7 +45,8 @@
 			<groupId>com.bernardomg.tabletop</groupId>
 			<artifactId>dice</artifactId>
 			<version>2.2.1</version>
-		</dependency>
+		</dependency>	
+
 	</dependencies>
 
 	<build>

@@ -1,0 +1,15 @@
+Br,C,D,F,Hr,K,Kr,L,M,N,P,Pr,Rh,S,T,V,Yh,Yr,Z
+ach,ae,aec,ael,aer,ain,ann,ath,ean,eer,esh,iac,ial,iel,ien,ios,irr,iuc,oor,yoc,yon,yr,yre,áire,ían
+Aeth,All,Alm,Anv,Arh,Aur,Bah,Cynb,El,Eld,Eldr,Eoch,Er,Fueg,Hryth,Ial,Il,Ill,Inv,Ir,Iuch,Kar,Kelm,Laar,Maug,Maur,Nuad,Nuadh,Or,Petr,Pryd,Rhyl,Saim,Tald,Tarv,Tuir,Tur,Tyl,Ur,Vath,Yhun,Yl,Zon
+adr,adrh,aes,aeth,an,andr,ar,arr,as,ath,ay,istr,oc,or
+ach,ad,ai,ain,an,ann,anth,ar,as,ash,ath,ean,eer,el,en,esh,iac,ial,ian,ic,ien,il,in,ios,irr,iuc,on,or,oth,u,un,wal,yoc,yon
+Br,C,D,Dr,F,Hr,K,Kr,L,M,N,P,Pr,R,Rh,S,Sh,T,V,Yh,Yr,Z
+ach,ae,aec,aech,ael,aer,aie,ain,ann,ath,ean,esh,iac,ial,iel,ien,ios,irr,iuc,oh,yoc,yon,yr,yre,ían
+Aeth,All,Alm,Anv,Arh,Aur,Bah,Ciar,Cynb,El,Eld,Eldr,Eoch,Er,Fueg,Glùin,Hryth,Ial,Il,Ill,Inv,Ir,Iuch,Kar,Kelm,Kelt,Maug,Maur,Nat,Nuad,Nuadh,Or,Petr,Pryd,Rhyl,Saim,Tald,Tarv,Thyll,Tuir,Tur,Tyl,Ulthr,Ur,Vath,Yhun,Yl,Zon
+ach,ad,adh,ai,ain,an,ann,anth,ar,as,ase,ash,ath,ean,el,en,esh,iac,ial,ian,ic,ien,il,in,ios,irr,iuc,oc,on,or,oth,u,un,wal,yoc,yon
+Bright,Dawn,Dream,Dusk,Ebon,Fair,Fell,Fire,Gloam,Gold,Heaven,High,Moon,Night,Noble,Shade,Shadow,Silver,Spirit,Star,Storm,Sun,Swift,Veil,Void,Wraith,Zephyr
+bane,blade,born,child,cloud,crest,eye,guide,hand,heart,helm,lance,rider,seeker,shard,sight,song,soul,spear,strider,strike,walker,weave,winter
+Accomplished,Ageless,Agile,Ancient,Arrogant,Bitter,Callous,Condescending,Disciplined,Disdainful,Dispassionate,Dour,Elegant,Elusive,Erudite,Esteemed,Fading,Gifted,Graceful,Haughty,Implacable,Insular,Introspective,Jaded,Learned,Mindful,Mistrustful,Mysterious,Noble,Notorious,Pallid,Pedantic,Perceptive,Pompous,Powerful,Precognitive,Reclusive,Resilient,Respected,Resurrected,Shrewd,Skilled,Solemn,Sorrowful,Weary,Wise
+Architect,Artisan,Commander,Custodian,Defender,Emissary,Engineer,Envoy,Exemplar,Exile,Guardian,Herald,Hunter,Keeper,Master,Outcast,Philosopher,Prophet,Protector,Saviour,Searcher,Seeker,Seer,Sentinel,Student,Survivor,Traveller,Visionary,Void-Farer,Warden,Warrior,Watcher,Wayforger
+Ancestral,Arcane,Argent,Astral,Beleaguered,Bleak,Crystalline,Dying,Ebon,Emerald,Empty,Eternal,Fabled,Fading,Fallen,Forgotten,Forsaken,Fractal,Harmonic,Infinite,Lamented,Lost,Mythic,Phoenix,Prismatic,Psychic,Ruby,Sapphire,Silent,Starborne,Starlit,Stricken,Twilight,Unravelling,Waning,Weeping,Whispering,Withered,Wraithbone
+Awakening,Bastion,Beacon,Blade,Cipher,Conclave,Construct,Council,Engine,Fracture,Gateway,Helix,Labyrinth,Locus,Nexus,Obelisk,Path,Prophecies,Ritual,Runes,Seerstones,Shrine,Spire,Temple,Trials,Tribunal,Vault,Visions,Vortex,Way,Webway Portal
